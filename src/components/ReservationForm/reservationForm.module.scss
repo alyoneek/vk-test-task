@@ -1,0 +1,14 @@
+.row {
+  display: flex;
+  gap: 10px;
+
+  .col {
+    flex: 1;
+  }
+}
+
+:global {
+  .ant-picker {
+    width: 100%;
+  }
+}
